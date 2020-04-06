@@ -1,0 +1,22 @@
+[user]
+        email = aapo@lamia.fi
+        name = Aapo Kiiso
+[merge]
+        tool = meld
+[alias]
+        branches = branch -a
+        tags = tag
+        stashes = stash list
+        unstage = reset -q HEAD --
+        discard = checkout --
+        amend = commit --amend
+        nevermind = !git reset --hard HEAD && git clean -fd
+        sdiff = diff --staged
+[merge "npm-merge-driver"]
+	name = automatically merge npm lockfiles
+	driver = npx npm-merge-driver merge %A %O %B %P
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
