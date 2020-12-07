@@ -1,4 +1,5 @@
-[core]                                                                                                                                                                                                                                                                                                                               autocrlf = false
+[core]
+        autocrlf = false
 [user]
         email = aapo@lamia.fi
         name = Aapo Kiiso
