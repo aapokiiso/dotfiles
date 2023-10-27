@@ -8,9 +8,7 @@
 [alias]
         branches = branch -a
         tags = tag
-        stashes = stash list
         unstage = reset -q HEAD --
-        discard = checkout --
         amend = commit --amend
         nevermind = !git reset --hard HEAD && git clean -fd
         sdiff = diff --staged
