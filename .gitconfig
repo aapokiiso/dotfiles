@@ -1,7 +1,9 @@
 [core]
         autocrlf = false
+[init]
+        defaultBranch = main
 [user]
-        email = aapo@lamia.fi
+        email = aapo@kii.so
         name = Aapo Kiiso
 [merge]
         tool = meld
