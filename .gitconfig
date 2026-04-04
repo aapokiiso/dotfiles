@@ -3,7 +3,7 @@
 [init]
         defaultBranch = main
 [user]
-        email = aapo@kii.so
+        email = aapo@kiiso.fi
         name = Aapo Kiiso
 [merge]
         tool = meld
