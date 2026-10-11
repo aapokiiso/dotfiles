@@ -1,0 +1,6 @@
+{
+  "model": "opus[1m]",
+  "theme": "dark",
+  "preferredNotifChannel": "notifications_disabled",
+  "autoMemoryEnabled": false
+}
